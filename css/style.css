@@ -39,6 +39,10 @@ img[alt="Necklace Image"] {
 }
 
 
+a {
+	transition-property: all;
+	transition-duration: 4s;
+}
 
 footer {
 	text-align: right;	
