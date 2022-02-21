@@ -1,20 +1,46 @@
 /*////////////// Fonts //////////////*/
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
+  div {
+    display: block;
+}
+
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+    background: white;
+    font-size: 110%;
+    font-family: 'Times New Roman', serif;
+	margin-left: 5cm;
+	margin-right: 10cm;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+img[alt="Necklace Image"] {
+	width: 110%;
+	border: 5px solid #547d80;
+  } 
+
+#features {
+	display: block;
+	width: 110%;
+	text-align: justify;
 }
 
+#details {
+	display: inline-block;
+	inline-size: 110%;	
+	padding: 1%;
+	background-color: #547d80;
+	transition-property: font-size;
+	transition-duration: 4s;
+}
+
+
+
+footer {
+	text-align: right;	
+}
 /* Write all remaining styles here */
